@@ -30,13 +30,14 @@ const Home = () => {
   };
 
   return (
-    <div className="border-box">
+    <div className="h-screen border-box">
       <Head>
         <title>Bersy Home Page</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="theme-color" content="#ef4444"></meta>
       </Head>
 
-      <main className="h-screen flex items-center justify-between flex-nowrap bg-gradient-to-b from-red-500 to-green-900 flex-col space-y-8">
+      <main className="h-full flex items-center justify-between flex-nowrap  flex-col space-y-8">
         <div className="px-2 py-4">
           <p className="text-4xl text-white font-bold animate-pulse">
             Buon Natale 🎄
