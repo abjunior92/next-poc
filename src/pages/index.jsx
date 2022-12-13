@@ -36,7 +36,7 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="theme-color" content="#ef4444"></meta>
+        <meta name="theme-color" content="#dc2626"></meta>
       </Head>
 
       <main className="h-3/4 flex items-center justify-between flex-nowrap  flex-col space-y-8">
