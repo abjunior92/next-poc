@@ -64,19 +64,19 @@ const Home = () => {
             </div>
             <div className="p-4 flex flex-col space-y-2 w-full items-center">
               {contest && (
-                <p className="p-4 animate-bounce text-white text-base flex items-center justify-center">
+                <p className="p-4 animate-bounce text-white text-base flex items-center justify-center font-bold">
                   😾 Kobe: "Solo io posso protestare! kè kè"
                 </p>
               )}
               <div className="flex space-x-4">
                 <button
-                  className="bg-sky-600 text-white px-2 py-3 min-w-[6rem] rounded-md w-20"
+                  className="bg-sky-600 text-white px-2 py-3 min-w-[6rem] rounded-md w-20 font-bold"
                   onClick={() => setState("step2")}
                 >
                   Ma certo!
                 </button>
                 <button
-                  className="bg-red-500 text-white rounded-md min-w-[6rem] px-2 py-3"
+                  className="bg-red-600 text-white rounded-md min-w-[6rem] px-2 py-3 font-bold"
                   onClick={() => setContest(true)}
                 >
                   Protesto
@@ -97,19 +97,19 @@ const Home = () => {
             </div>
             <div className="p-4 flex flex-col space-y-2 w-full items-center">
               {contest && (
-                <p className="animate-bounce p-4 text-white text-base flex items-center justify-center">
+                <p className="animate-bounce p-4 text-white text-base flex items-center justify-center font-bold">
                   😾 Kobe: "kè kè kè kè kè kè!!"
                 </p>
               )}
               <div className="flex space-x-4">
                 <button
-                  className="bg-sky-600 text-white px-2 py-3 min-w-[6rem] rounded-md w-20"
+                  className="bg-sky-600 text-white px-2 py-3 min-w-[6rem] rounded-md w-20 font-bold"
                   onClick={() => setState("step3")}
                 >
                   A cosa?
                 </button>
                 <button
-                  className="bg-red-500 text-white rounded-md min-w-[6rem] px-2 py-3"
+                  className="bg-red-600 text-white rounded-md min-w-[6rem] px-2 py-3 font-bold"
                   onClick={() => setContest(true)}
                 >
                   Protesto!!
@@ -127,13 +127,13 @@ const Home = () => {
             </div>
             <div className="p-4 flex flex-col space-y-2 w-full items-center">
               {contest && (
-                <p className="animate-bounce p-4 text-white text-base flex items-center justify-center">
+                <p className="animate-bounce p-4 text-white text-base flex items-center justify-center font-bold">
                   😿 Kobe: "pensaci bene..."
                 </p>
               )}
               <div className="flex space-x-4">
                 <button
-                  className="bg-sky-600 text-white text-2xl px-2 py-3 min-w-[6rem] rounded-md w-48"
+                  className="bg-sky-600 text-white text-2xl px-2 py-3 min-w-[6rem] rounded-md w-48 font-bold"
                   onClick={() => {
                     setState("final");
                     setIsExploding(true);
@@ -142,7 +142,7 @@ const Home = () => {
                   Sì 💍
                 </button>
                 <button
-                  className="bg-red-500 text-white rounded-md min-w-[3rem] px-2 py-3"
+                  className="bg-red-600 text-white rounded-md min-w-[3rem] px-2 py-3 font-bold"
                   onClick={() => setContest(true)}
                 >
                   NO
@@ -160,7 +160,7 @@ const Home = () => {
             </div>
             <div className="flex space-x-4 p-4">
               <button
-                className="bg-red-500 text-white rounded-md min-w-[3rem] px-2 py-3"
+                className="bg-red-600 text-white rounded-md min-w-[3rem] px-2 py-3 font-bold"
                 onClick={() => init()}
               >
                 Ho sbagliato, ricomincio!
