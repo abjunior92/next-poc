@@ -39,7 +39,7 @@ const Home = () => {
         <meta name="theme-color" content="#ef4444"></meta>
       </Head>
 
-      <main className="h-full flex items-center justify-between flex-nowrap  flex-col space-y-8">
+      <main className="h-3/4 flex items-center justify-between flex-nowrap  flex-col space-y-8">
         <div className="px-2 py-4">
           <p className="text-4xl text-white font-bold animate-pulse">
             Buon Natale 🎄
