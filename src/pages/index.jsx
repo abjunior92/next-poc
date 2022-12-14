@@ -154,8 +154,72 @@ const Home = () => {
           <>
             <div className="flex w-full items-center justify-center flex-nowrap space-x-4">
               <div className="text-white text-xl font-bold px-4 text-center">
-                <p>Simo...</p>
+                <p>L'amore vince sempre</p>
                 <p className="text-6xl">TI AMO ❤️</p>
+              </div>
+            </div>
+            <div className="flex space-x-4 p-4">
+              <button
+                className="bg-sky-600 text-white text-2xl px-2 py-3 min-w-[6rem] rounded-md w-48 font-bold"
+                onClick={() => {
+                  setState("letter");
+                }}
+              >
+                Per te 💌
+              </button>
+              <button
+                className="bg-red-600 text-white rounded-md min-w-[3rem] px-2 py-3 font-bold"
+                onClick={() => init()}
+              >
+                Volevo dire NO!
+              </button>
+            </div>
+          </>
+        ) : state === "letter" ? (
+          <>
+            <div className="flex w-full flex-nowrap space-x-4 overflow-y-auto">
+              <div className="text-white italic text-lg font-bold px-4 text-left">
+                <p>Sei stata il mio primo amore,</p>
+                <p>Lo sei ancora oggi,</p>
+                <p>E sempre lo sarai.</p>
+                <p>
+                  Da ragazzini fu un colpo di fulmine, non sapevo cosa fosse
+                  l'amore e tu me l'hai insegnato, anche con un "pugno in
+                  faccia" che però mi ha aperto gli occhi. Ho capito cosa
+                  significasse amare: se non dai tutto te stesso, non potrai mai
+                  essere felice e non potrai mai ricevere altrettanto.
+                </p>
+                <p>
+                  Il bello, poi, è che ben 15 anni dopo, ossia 2 anni fa, sei
+                  riuscita a ricordarmelo. Perchè io nel mentre ho dimenticato
+                  come fosse davvero fatto l'amore.
+                </p>
+                <p>Oggi mi basta guardarti e lo so.</p>
+                <p>
+                  Lo so mentre ti guardo negli occhi, così intensamente, perchè
+                  mi piace leggerti dentro.
+                </p>
+                <p>
+                  Lo so mentre dormi, perchè un letto senza di te (e kobe) non
+                  lo riesco più ad immaginare.
+                </p>
+                <p>
+                  Lo so mentre ridi, mentre parli in quel modo che fai solo con
+                  me, mentre ci stuzzichiamo.
+                </p>
+                <p>
+                  Lo so mentre ti guardo giorno dopo giorno raggiungere i tuoi
+                  traguardi. Perchè ti stimo tantissimo e, da sola, con le tue
+                  sole forze, potresti raggiungere la Luna se solo lo volessi.
+                </p>
+                <p>
+                  Lo so da quando mi hai detto di non lasciarti andare, di non
+                  arrendermi, quel giorno, su questo divano.
+                </p>
+                <p>
+                  Io non voglio lasciarti andare, anzi, io ti voglio con me...
+                </p>
+                <p>...per sempre.</p>
               </div>
             </div>
             <div className="flex space-x-4 p-4">
@@ -163,7 +227,7 @@ const Home = () => {
                 className="bg-red-600 text-white rounded-md min-w-[3rem] px-2 py-3 font-bold"
                 onClick={() => init()}
               >
-                Ho sbagliato, ricomincio!
+                Ricominciamo...
               </button>
             </div>
           </>
